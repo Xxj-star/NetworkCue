@@ -61,7 +61,7 @@ dependencies {
 ```
 # 演示（请star支持）
 
-![image text](https://github.com/ZhengYaWei1992/ZWProgressView/blob/master/Untitled3.gif)
+![image text](https://github.com/xuxinjiang/NetworkCue-/blob/master/gif/zjl.gif)
 
 # 联系方式
 
