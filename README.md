@@ -2,7 +2,7 @@
 主要提供了简单易用强大的Android网络监听库，绑定activity生命周期监听，跟QQ微信一样，代码简洁、解耦性高
 ## 要添加说明
   使用该工具条件需要项目SDK27版本以上
-  27以下需要添加依赖
+  27以下需要添加依赖  
   implementation "android.arch.lifecycle:livedata:$LIFECYCLE_VERSION"
 
 
