@@ -69,6 +69,6 @@ dependencies {
 
 ### 欢迎加入QQ交流群（Q群574181465）
 
-![image text](https://server.9yuntu.cn/doc/Zn0Tp5S9Bhrzgsw9ESJDEK?yuntuFrom=weixinfuwu30)
+![image text](https://github.com/xuxinjiang/NetworkCue-/blob/master/gif/qqqun.png)
 
 
