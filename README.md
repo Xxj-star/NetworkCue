@@ -6,12 +6,12 @@
   implementation "android.arch.lifecycle:livedata:$LIFECYCLE_VERSION"
 
 
-#功能
-```
-动态加载监听
-支持监听2G、3G、4G、WiFi、未知网络
+# 功能
+
+动态加载监听  
+支持监听2G、3G、4G、WiFi、未知网络  
 activity启动时候自动注册监听  activity停用时候自动注销监听
-```
+
 # 使用方法：
 ```
  NetworkLiveData.get(getActivity()).observe(this, new Observer<NetType>() {
