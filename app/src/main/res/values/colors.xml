@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ffaa30</color>
+    <color name="tab_bottom_color">#494c5b</color>
+    <!-- 白色 -->
+    <color name="common_bg">#F0F0F0</color>
+    <color name="huangse">#ffaa30</color>
+    <color name="white">#Ffffff</color>
+    <color name="common_but_gray">#E5E5E5</color>
+    <color name="butcolor">#edf0f2</color>
+    <color name="chakanxiangq">#e2dede</color>
+    <color name="lanse">#5283f0</color>
+    <color name="backyes">#f7f8f9</color>
+    <!-- 灰色 -->
+    <color name="grey">#a39f9f</color>
+    <color name="common_gray">#727071</color>
+    <color name="theme_color">#00000000</color>
+    <color name="orange_test">#ff7612</color>
+    <color name="wheat">#F5DEB3</color>
+    <!-- 顶部和底部分割线的颜色 -->
+    <color name="top_line_bg">#ccc5bc</color>
+    <color name="bottom_line_bg">#eeeeee</color>
+    <color name="grayness">#5e5e5e</color>
+    <!-- 标题颜色 -->
+    <color name="title_text">#474A59</color>
+    <!-- 未选中、选中字体颜色 -->
+    <color name="text_normal">#666666</color>
+    <color name="text_selected">#d1a767</color>
+    <color name="text_gray">#a6a6a6</color>
+    <color name="main_text">#555555</color>
+
+    <color name="item_bg">#fffaf5</color>
+    <color name="huihei">#bfc1cc</color>
+    <color name="huisha">#474959</color>
+
+    <!--预约色块-->
+    <color name="bg_loan">#f6bd26</color>
+    <color name="bg_recharge">#fb9839</color>
+    <color name="bg_repayment">#f96e5c</color>
+    <color name="bg_withdraw">#60b1f7</color>
+
+    <!-- 阴影颜色 -->
+    <color name="shadow_normal">#e0cbb2</color>
+    <color name="shadow_pressed">#c9b6a0</color>
+    <color name="shadow_disabled">#efe5d8</color>
+    <color name="overdue_color">#ff1919</color>
+    <color name="yellow_color">#fffaf5</color>
+
+    <!-- 分割线 -->
+    <color name="common_line">#E8E8E8</color>
+    <color name="common_line_gray">#1E000000</color>
+    <!-- 浅灰色字体 -->
+    <color name="common_text_gray_thin">#B0B0B0</color>
+    <color name="common_text_gray_thin2">#999999</color>
+    <!-- 深灰色 -->
+    <color name="common_text_gray_dark">#606060</color>
+    <!-- 中灰色 -->
+    <color name="common__dark">#B0B0B0</color>
+    <color name="dark">#f4efef</color>
+    <!-- 浅灰色横线 -->
+    <color name="common_dark">#dedede</color>
+    <!-- 通用红字体 -->
+    <color name="common_red2">#ff5a5f</color>
+    <!-- 通用蓝色字体 -->
+    <color name="common_blue">#33a7ff</color>
+    <!-- 通用蓝色字体 -->
+    <color name="home_page_blue">#34aaff</color>
+    <!-- 点击后通用蓝色字体 -->
+    <color name="common_blue_click">#2e96e5</color>
+    <!-- 通用绿色字体 -->
+    <color name="common_green">#3BD186</color>
+    <!-- 通用橙字体 -->
+    <color name="common_orange">#FFA580</color>
+    <!-- 通用浅蓝色字体 -->
+    <color name="common_blue_shallow">#2985cc</color>
+    <!-- 通用黑字体 -->
+    <color name="common_black">#333333</color>
+    <!-- 纯黑字体 -->
+    <color name="black">#333333</color>
+    <color name="gray">#808080</color><!--灰色 -->
+    <color name="black_deep">#555555</color>
+    <!-- 纯黑字体 -->
+    <color name="deep_black">#000000</color>
+    <!-- 浅黑字体 -->
+    <color name="shallow_black">#666666</color>
+    <color name="common_text_orange">#FA9864</color>
+    <!-- 选中字体颜色 -->
+    <color name="text_on">#494c5b</color>
+    <!-- 选中字体颜色 -->
+    <color name="common_grey">#FAFAF7</color>
+
+    <!-- 浅灰字体 -->
+    <color name="shallow_grey">#ACACAC</color>
+    <color name="common_gray_shallow">#cccccc</color>
+    <color name="lock">#394051</color>
+
+    <color name="nocic">#e0e0e0</color>
+    <color name="transparent">#00000000</color>
+    <color name="question_green">#22C59D</color>
+
+    <color name="black_blue">#2E3F4D</color>
+    <color name="black_blue_light">#334D4D</color>
+
+    <color name="shallow_ash">#CCCCCC</color>
+
+    <!--==================回款日历=====================-->
+    <color name="normal_day">#424242</color>
+    <color name="selected_day_background">#03A9F4</color>
+    <color name="selected_day_text">#FFFFFF</color>
+    <color name="month_day_label_text">#757575</color>
+    <color name="weekends_day">#BDBDBD</color>
+    <color name="current_day_background">#ECECEC</color>
+    <color name="normal_month">#03A9F4</color>
+    <color name="red">#FC756E</color>
+
+    <!--==================按功能=====================-->
+    <color name="empty_list_text">#c5c5c5</color>
+
+    <!--==================main=====================-->
+    <color name="common_golden">#d1a767</color>
+
+    <color name="ml_white">#ffffffff</color>
+    <color name="ml_gray">#ff9e9e9e</color>
+    <color name="ml_blue">#ff239efe</color>
+    <color name="ml_red">#ffff0000</color>
+
+
+
+
+    <color name="darkgrey"> #C0C0C0</color>
+    <color name="f850_default_blue">#0079ff</color>
+    <drawable name="transparent">#00000000</drawable>
+    <color name="header_toast_bg">#ccebfc</color>
+    <color name="header_toast">#024ca1</color>
+    <color name="header_toast_line">#abdaf4</color>
+    <color name="offline_down_title">#909090</color>
+    <color name="offline_head_font">#FFFFFF</color>
+    <color name="gary">#898989</color>
+    <color name="taobao_black">#333333</color>
+    <color name="offline_down_size">#777777</color>
+    <color name="gray_lite">#c5c5c5</color>
+    <color name="progress_background">#ededed</color>
+    <color name="blue">#4c90f9</color>
+    <color name="itemlist">#f4f4f4</color>
+    <color name="act_background">#efefef</color>
+    <color name="phone_bg">#f6f6f6</color>
+    <color name="translucent">#66000000</color>
+    <color name="color666">#661B85FF</color>
+    <color name="color_1B85FF">#1B85FF</color>
+
+
+
+</resources>

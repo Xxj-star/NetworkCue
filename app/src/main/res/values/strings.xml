@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NetworkCue</string>
+    <string name="action_home">Home</string>
+    <string name="action_group">Group</string>
+    <string name="action_contact">Contact</string>
+    <string name="title_home">Active</string>
+    <string name="title_group">Group</string>
+    <string name="title_contact">Contact</string>
+</resources>

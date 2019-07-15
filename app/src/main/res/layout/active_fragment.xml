@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <!--<com.google.android.material.appbar.AppBarLayout-->
+        <!--android:id="@+id/center_appbar_layout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/white"-->
+        <!--android:fitsSystemWindows="true"-->
+        <!--app:elevation="0dp">-->
+
+        <!--<com.google.android.material.appbar.CollapsingToolbarLayout-->
+            <!--android:id="@+id/collapsing_toobar"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="260dp"-->
+            <!--app:contentScrim="@color/shadow_normal"-->
+            <!--app:layout_scrollFlags="scroll|exitUntilCollapsed"-->
+            <!--android:background="@drawable/ppy"-->
+            <!--fresco:collapsedTitleGravity="left"-->
+            <!--fresco:collapsedTitleTextAppearance="@drawable/ppy"-->
+            <!--fresco:expandedTitleGravity="left"-->
+            <!--fresco:expandedTitleMarginStart="30dp"-->
+            <!--fresco:expandedTitleMarginTop="185dp"-->
+            <!--fresco:expandedTitleTextAppearance="@color/chakanxiangq">-->
+
+            <!--<FrameLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="180dp"-->
+                <!--app:layout_scrollFlags="scroll">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/avatar_max"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="170dp" />-->
+
+
+                <!--<TextView-->
+                    <!--android:id="@+id/avatar_min"-->
+                    <!--android:layout_width="70dp"-->
+                    <!--android:layout_height="70dp"-->
+                    <!--android:layout_gravity="bottom"-->
+                    <!--android:layout_marginLeft="20dp" />-->
+            <!--</FrameLayout>-->
+
+            <!--<FrameLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_marginTop="180dp"-->
+                <!--app:layout_scrollFlags="scroll">-->
+
+                <!--<Button-->
+                    <!--android:id="@+id/edit_btn"-->
+                    <!--android:layout_width="60dp"-->
+                    <!--android:layout_height="20dp"-->
+                    <!--android:layout_gravity="right|center_vertical"-->
+                    <!--android:layout_marginRight="20dp"-->
+                    <!--android:background="@drawable/ic_contact"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text="编辑资料"-->
+                    <!--android:textColor="@color/black"-->
+                    <!--android:textSize="10sp" />-->
+            <!--</FrameLayout>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/date"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:layout_marginTop="230dp"-->
+                <!--android:text="2018.07.08注册"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:textSize="10sp"-->
+                <!--app:layout_scrollFlags="scroll" />-->
+
+            <!--<androidx.appcompat.widget.Toolbar-->
+                <!--android:id="@+id/toolbar"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="?attr/actionBarSize"-->
+                <!--app:layout_collapseMode="pin"/>-->
+        <!--</com.google.android.material.appbar.CollapsingToolbarLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="70dp"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:background="@color/gary"-->
+            <!--android:gravity="center_vertical">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/works"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="40dp"-->
+                <!--android:background="@drawable/ic_contact"-->
+                <!--android:text="没有啊"-->
+                <!--android:textColor="@color/colorAccent"/>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/attention"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="90dp"-->
+                <!--android:background="@drawable/ic_contact"-->
+                <!--android:text="没有啊"-->
+                <!--android:textColor="@color/colorAccent"/>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/fans"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="90dp"-->
+                <!--android:background="@drawable/ic_contact"-->
+                <!--android:text="没有啊"-->
+                <!--android:textColor="@color/colorAccent"/>-->
+        <!--</LinearLayout>-->
+
+    <!--</com.google.android.material.appbar.AppBarLayout>-->
+
+    <!--<androidx.recyclerview.widget.RecyclerView-->
+        <!--android:id="@+id/recycle_state"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--app:layout_behavior="@string/appbar_scrolling_view_behavior" />-->
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
