@@ -1,13 +1,17 @@
 # NetworkCue
-主要提供了简单易用强大的Android网络监听库，绑定activity生命周期监听，跟QQ微信一样，代码简洁、解耦性高。要添加说明  sdk27一下 需要添加依赖implementation "android.arch.lifecycle:livedata:$LIFECYCLE_VERSION"，27以上 android自带组件 无需添加
+主要提供了简单易用强大的Android网络监听库，绑定activity生命周期监听，跟QQ微信一样，代码简洁、解耦性高
+## 要添加说明
+  使用该工具条件需要项目SDK27版本以上
+  27以下需要添加依赖
+  implementation "android.arch.lifecycle:livedata:$LIFECYCLE_VERSION"
 
 
-#功能
-```
+# 功能
+
 动态加载监听
 支持监听2G、3G、4G、WiFi、未知网络
 activity启动时候自动注册监听  activity停用时候自动注销监听
-```
+
 # 使用方法：
 ```
  NetworkLiveData.get(getActivity()).observe(this, new Observer<NetType>() {
@@ -61,7 +65,7 @@ dependencies {
 ```
 # 演示（请star支持）
 
-![image text](https://github.com/ZhengYaWei1992/ZWProgressView/blob/master/Untitled3.gif)
+![image text](https://github.com/xuxinjiang/NetworkCue-/blob/master/gif/zjl.gif)
 
 # 联系方式
 
@@ -69,6 +73,6 @@ dependencies {
 
 ### 欢迎加入QQ交流群（Q群574181465）
 
-![image text](https://server.9yuntu.cn/doc/Zn0Tp5S9Bhrzgsw9ESJDEK?yuntuFrom=weixinfuwu30)
+![image text](https://github.com/xuxinjiang/NetworkCue-/blob/master/gif/qqqun.png)
 
 
