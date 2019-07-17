@@ -55,7 +55,7 @@ NetworkLiveData.get(getActivity()).observe(this, new Observer() {
 
 # 当前版本
 
-release
+[![release](https://img.shields.io/badge/release-v1.0-orange.svg)](https://github.com/xuxinjiang/NetworkCue-/blob/master/update.md)
 
 ## build.gradle设置
 ```
