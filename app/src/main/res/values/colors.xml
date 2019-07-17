@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#ffffff</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimaryDark">#2f2f2f</color>
     <color name="colorAccent">#ffaa30</color>
     <color name="tab_bottom_color">#494c5b</color>
     <!-- 白色 -->

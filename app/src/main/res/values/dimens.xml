@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<dimen name="design_bottom_navigation_height">50dp</dimen>//高度-->
+    <dimen name="design_bottom_navigation_active_text_size">11sp</dimen><!--选中时的字体大小-->
+    <dimen name="design_bottom_navigation_margin">8dp</dimen><!--icon与文本之间的间距-->
+    <dimen name="design_bottom_navigation_shadow_height">1dp</dimen><!--阴影高度-->
+    <dimen name="design_bottom_navigation_text_size">11sp</dimen><!--未选中时的字体大小-->
+
+</resources>

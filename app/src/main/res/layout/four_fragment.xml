@@ -4,12 +4,10 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <Button
-        android:id="@+id/skipBut"
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="90dp"
-        android:text="跳转"
+        android:layout_height="match_parent"
+        android:text="fragment_four"
         android:gravity="center"
         android:textStyle="bold"/>
 

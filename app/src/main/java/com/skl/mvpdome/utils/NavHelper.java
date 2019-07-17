@@ -7,6 +7,8 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+
 
 /**
  * 解决对Fragment的调度与重用问题，
@@ -28,11 +30,29 @@ public class NavHelper<T> {
     // 当前的一个选中的Tab
     private Tab<T> currentTab;
 
-    public NavHelper(Context context, int containerId,FragmentManager fragmentManager,OnTabChangedListener<T> listener) {
+    public NavHelper(Context context, int containerId, FragmentManager fragmentManager, OnTabChangedListener<T> listener) {
         this.context = context;
         this.containerId = containerId;
         this.fragmentManager = fragmentManager;
         this.listener = listener;
+    }
+
+
+    /**
+     * 改变Tab
+     *
+     * @param menuId 改变Tab对应的菜单Id
+     * @param menuId menuId
+     */
+
+    public void setCurrentTab(int menuId, BottomNavigationView navigationView) {
+        Tab<T> oldTab = currentTab;
+        Tab<T> newTab = tabs.get(menuId);
+        if (newTab != null) {
+            currentTab = newTab;
+            navigationView.setSelectedItemId(menuId);
+        }
+        doTabChanged(currentTab, oldTab);
     }
 
     /**
@@ -98,6 +118,7 @@ public class NavHelper<T> {
 
     /**
      * 进行Fragment的真实的调度操作
+     *
      * @param newTab 新的
      * @param oldTab 旧的
      */

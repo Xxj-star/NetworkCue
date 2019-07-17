@@ -12,9 +12,11 @@ import androidx.annotation.NonNull;
 import com.google.android.material.bottomnavigation.BottomNavigationItemView;
 import com.google.android.material.bottomnavigation.BottomNavigationMenuView;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.bottomnavigation.LabelVisibilityMode;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.skl.mvpdome.base.BaseActivity;
 import com.skl.mvpdome.fragment.ActiveFragment;
+import com.skl.mvpdome.fragment.FourFragment;
 import com.skl.mvpdome.fragment.ThreeFragment;
 import com.skl.mvpdome.fragment.TwoFragment;
 import com.skl.mvpdome.utils.NavHelper;
@@ -43,12 +45,13 @@ public class MainActivity extends BaseActivity implements BottomNavigationView.O
         mNavHelper = new NavHelper<>(this, R.id.lay_container, getSupportFragmentManager(), this);
         mNavHelper.add(R.id.action_home, new NavHelper.Tab<>(ActiveFragment.class, R.string.title_home))
                 .add(R.id.action_group, new NavHelper.Tab<>(TwoFragment.class, R.string.title_group))
-                .add(R.id.action_msg, new NavHelper.Tab<>(TwoFragment.class, R.string.title_group))
-                .add(R.id.action_contact, new NavHelper.Tab<>(ThreeFragment.class, R.string.title_contact));
+                .add(R.id.action_msg, new NavHelper.Tab<>(ThreeFragment.class, R.string.title_group))
+                .add(R.id.action_contact, new NavHelper.Tab<>(FourFragment.class, R.string.title_contact));
         // 添加对底部按钮点击的监听
         mNavigation.setOnNavigationItemSelectedListener(this);
         //获取整个的NavigationView
         BottomNavigationMenuView menuView = (BottomNavigationMenuView) mNavigation.getChildAt(0);
+        mNavigation.setLabelVisibilityMode(LabelVisibilityMode.LABEL_VISIBILITY_LABELED);
         //这里就是获取所添加的每一个Tab(或者叫menu)，
         View tab = menuView.getChildAt(3);
         BottomNavigationItemView itemView = (BottomNavigationItemView) tab;
@@ -69,6 +72,8 @@ public class MainActivity extends BaseActivity implements BottomNavigationView.O
         Menu menu = mNavigation.getMenu();
         // 触发首次选中Home
         menu.performIdentifierAction(R.id.action_home, 0);
+        //设置跳转指定的fragment
+        //mNavHelper.setCurrentTab(R.id.action_contact, mNavigation);
     }
 
     @Override

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -31,11 +31,11 @@
         android:background="#ffffff"
         android:elevation="4dp"
         android:outlineProvider="bounds"
-        app:labelVisibilityMode="labeled"
         android:translationZ="8dp"
         app:itemIconTint="@color/text_nav"
         app:itemTextColor="@color/text_nav"
+        app:labelVisibilityMode="labeled"
         app:menu="@menu/navigation_items"
-        tools:targetApi="lollipop"/>
+        tools:targetApi="lollipop" />
 
 </LinearLayout>

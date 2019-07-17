@@ -17,6 +17,7 @@ import butterknife.Unbinder;
  */
 
 public abstract class BaseFragment extends Fragment {
+
     protected View mRoot;
     protected Unbinder mRootUnBinder;
     // 标示是否第一次初始化数据
@@ -25,7 +26,6 @@ public abstract class BaseFragment extends Fragment {
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-
         // 初始化参数
         initArgs(getArguments());
 
@@ -51,14 +51,6 @@ public abstract class BaseFragment extends Fragment {
     }
 
     @Override
-    public void onDestroyView() {
-        super.onDestroyView();
-        if(mRootUnBinder!=null){
-            mRootUnBinder.unbind();
-        }
-    }
-
-    @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         if (mIsFirstInitData) {
@@ -67,7 +59,6 @@ public abstract class BaseFragment extends Fragment {
             // 触发
             onFirstInit();
         }
-
         // 当View创建完成后初始化数据
         initData();
     }

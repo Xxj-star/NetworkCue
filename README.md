@@ -2,28 +2,19 @@
 主要提供了简单易用强大的Android网络监听库，绑定activity生命周期监听，跟QQ微信一样，代码简洁、解耦性高
 ## 要添加说明
   使用该工具条件需要项目SDK27版本以上
-<<<<<<< HEAD
-  27以下需要添加依赖
-=======
   27以下需要添加依赖  
->>>>>>> origin/master
   implementation "android.arch.lifecycle:livedata:$LIFECYCLE_VERSION"
 
 
 # 功能
 
-<<<<<<< HEAD
-动态加载监听
-支持监听2G、3G、4G、WiFi、未知网络
-=======
 动态加载监听  
 支持监听2G、3G、4G、WiFi、未知网络  
->>>>>>> origin/master
 activity启动时候自动注册监听  activity停用时候自动注销监听
 
 # 使用方法：
 ```
- NetworkLiveData.get(getActivity()).observe(this, new Observer<NetType>() {
+NetworkLiveData.get(getActivity()).observe(this, new Observer() {
             @Override
             public void onChanged(@Nullable NetType netType) {
                 switch (netType) {
@@ -69,7 +60,7 @@ release
 ## build.gradle设置
 ```
 dependencies {
- implementation 'com.github.xuxinjiang:NetworkCue:1.0'
+implementation 'com.github.xuxinjiang:NetworkCue:1.0'
 }
 ```
 # 演示（请star支持）
@@ -78,10 +69,11 @@ dependencies {
 
 # 联系方式
 
- 本群旨在为使用我github项目的人提供方便，如果遇到问题欢迎在群里提问。
+本群旨在为使用我github项目的人提供方便，如果遇到问题欢迎在群里提问。
 
 ### 欢迎加入QQ交流群（Q群574181465）
 
 ![image text](https://github.com/xuxinjiang/NetworkCue-/blob/master/gif/qqqun.png)
+
 
 

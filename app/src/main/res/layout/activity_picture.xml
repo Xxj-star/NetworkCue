@@ -5,12 +5,19 @@
     android:orientation="vertical">
 
     <Button
-        android:id="@+id/skipBut"
+        android:id="@+id/selectBut"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="90dp"
-        android:text="跳转"
+        android:text="选择相册"
         android:gravity="center"
         android:textStyle="bold"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/imageRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:scrollbars="none" />
 
 </LinearLayout>

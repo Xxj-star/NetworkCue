@@ -6,6 +6,8 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
+import com.gyf.immersionbar.ImmersionBar;
+
 import java.util.List;
 
 import butterknife.ButterKnife;
@@ -26,6 +28,7 @@ public abstract class BaseActivity extends AppCompatActivity {
             // 得到界面Id并设置到Activity界面中
             int layId = getContentLayoutId();
             setContentView(layId);
+            ImmersionBar.with(this).statusBarDarkFont(true).init();
             initBefore();
             initWidget();
             initData();
