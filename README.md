@@ -73,7 +73,7 @@ implementation 'com.github.xuxinjiang:NetworkCue:1.0'
 
 ### 欢迎加入QQ交流群（Q群574181465）
 
-![image text](https://github.com/xuxinjiang/NetworkCue-/blob/master/gif/qqqun.png)
+![image text](https://github.com/xuxinjiang/NetworkCue-/blob/master/gif/xxjqq.png)
 
 
 
