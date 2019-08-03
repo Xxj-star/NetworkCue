@@ -15,6 +15,6 @@ public class FourFragment extends BaseFragment {
     @Override
     protected void initWidget(View root) {
         super.initWidget(root);
-        Log.e("ttt","333333333333333333333333333");
+        Log.e("ttt","44444444444444444444444");
     }
 }

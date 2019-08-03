@@ -23,6 +23,7 @@ public class ActiveFragment extends BaseFragment {
     @Override
     protected void initWidget(View root) {
         super.initWidget(root);
+        Log.e("ttt","1111111111111111111111");
         NetworkLiveData.get(getActivity()).observe(this, new Observer<NetType>() {
             @Override
             public void onChanged(@Nullable NetType netType) {
