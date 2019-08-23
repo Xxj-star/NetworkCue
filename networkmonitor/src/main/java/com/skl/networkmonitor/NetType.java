@@ -1,7 +1,7 @@
 package com.skl.networkmonitor;
 
 public enum NetType {
-    //????
+    //未知网络
     NET_UNKNOW,
 
     //4G
@@ -13,9 +13,6 @@ public enum NetType {
     //2G
     NET_2G,
 
-    //wifi??
+    //wifi
     WIFI,
-
-    //????
-    NOME,
 }
