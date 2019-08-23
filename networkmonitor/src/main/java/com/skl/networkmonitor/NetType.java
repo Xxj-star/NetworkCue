@@ -15,4 +15,7 @@ public enum NetType {
 
     //wifi
     WIFI,
+
+    //没有网络
+    NOME,
 }
