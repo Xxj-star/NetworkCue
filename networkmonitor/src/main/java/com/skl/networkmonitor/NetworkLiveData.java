@@ -10,6 +10,7 @@ import android.util.Log;
 
 import androidx.lifecycle.LiveData;
 
+
 public class NetworkLiveData extends LiveData<NetType> {
 
     private final Context mContext;
