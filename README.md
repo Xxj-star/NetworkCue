@@ -60,7 +60,7 @@ NetworkLiveData.get(getActivity()).observe(this, new Observer() {
 ## build.gradle设置
 ```
 dependencies {
-implementation 'com.github.xuxinjiang:NetworkCue:1.0'
+implementation 'com.github.xuxinjiang:NetworkCue:1.0.1'
 }
 ```
 # 演示（请star支持）
