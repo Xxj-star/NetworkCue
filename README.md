@@ -55,12 +55,12 @@ NetworkLiveData.get(getActivity()).observe(this, new Observer() {
 
 # 当前版本
 
-[![release](https://img.shields.io/badge/release-v1.0-orange.svg)](https://github.com/xuxinjiang/NetworkCue-/blob/master/update.md)
+[![release](https://img.shields.io/badge/release-v1.0.2-orange.svg)](https://github.com/xuxinjiang/NetworkCue-/blob/master/update.md)
 
 ## build.gradle设置
 ```
 dependencies {
-implementation 'com.github.xuxinjiang:NetworkCue:1.0.1'
+implementation 'com.github.xuxinjiang:NetworkCue:1.0.2'
 }
 ```
 # 演示（请star支持）
